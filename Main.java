@@ -63,9 +63,9 @@ public class Main {
         Cat c = new Cat();
         an = c;
         
-        a.sound();
-        an.sound();
-        d.sound(); // การส่ง message เพื่อสั่งให้ออบเจกต์ dog เรียกใช้เมธอด sound()
-        c.sound();
+        a.sound(); // สั่งให้ออบเจกต์ a รส่ง message เรียก sound() ของ Animal 
+        an.sound(); // สั่งให้ออบเจกต์ an ส่ง message เรียก sound() ของ Cat 
+        d.sound(); // สั่งให้ออบเจกต์ d ส่ง message เรียก sound() ของ Dog 
+        c.sound(); // สั่งให้ออบเจกต์ c ส่ง message เรียก sound() ของ Cat 
     }
 }

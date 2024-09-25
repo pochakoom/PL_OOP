@@ -33,6 +33,6 @@ if __name__ == "__main__":
     d = Dog()     
     c = Cat()    
     
-    a.sound()     
-    d.sound()     
-    c.sound()     at
+    a.sound()     # ส่ง message เพื่อเรียกเมธอด sound() ของออบเจกต์ a
+    d.sound()     # ส่ง message เพื่อเรียกเมธอด sound() ของออบเจกต์ d
+    c.sound()     # ส่ง message เพื่อเรียกเมธอด sound() ของออบเจกต์ c
